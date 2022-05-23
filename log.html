@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Логин</title>
+</head>
+<body style="max-height: 770px; max-width: 1440px;">
+    <div class="box1" style="background-color: aliceblue; z-index: 999999999; width: 350px; box-shadow: -4px 0px 500px 100px rgb(133, 182, 166); position: relative; left: 490px; top: 250px; padding: 50px 50px 50px 50px; font-size: 110%" >
+        <form name="form" method="post" style="display: flex; flex-direction: column;">
+            <div style="display: flex; justify-content: center;">
+                <table>
+                    <tbody>
+                        <tr>
+                                <tr style="display: flex; justify-content: space-between;">
+                                    <td style="padding-top: 3px; align-items: center;">
+                                        <label for="email">E-mail: </label>                                
+                                    </td>
+                                    <td style="padding-top: 0px;">
+                                        <input  class="input2" style="border: 0.5px double black;  padding: 5px 7px 5px 7px;" type="email" placeholder="Ваш e-mail" style="display: inline;"  data-autosave-url="UserInfo" name="email" id="email"  >
+                                        <abbr title="" aria-required="true" style="color: red; display: inline;">*</abbr>                                </td>
+                                </tr>
+                                <tr style="display: flex;">
+                                    <td style="padding-top: 3px; align-items: center;">
+                                        <label for="pswrd"> Пароль: </label>                     
+                                    </td>
+                                    <td style="padding-top: 0px;">
+                                        <input class="input3" type="password" style="border: 0.5px double black;  padding: 5px 7px 5px 7px;" type="password" placeholder="Пароль от аккаунта" style="display: inline;" maxlength="20" name="pswrd" id="pswrd" data-autosave-url="UserInfo"  >
+                                        <abbr title="" aria-required="true" style="color: red; display: inline;">*</abbr>
+
+                                    </td>
+                                </tr>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div style="display: flex; flex-direction: row; justify-content: center; margin-top: 20px;">
+                <button class="button"  type="button" style="width: 100px; background: none; border: none;">
+                    Назад
+                </button>
+                <button class="button1" type="button" style="width: 100px; background: none; border: none;">
+                    Подтвердить
+                </button>
+            </div>
+        </form>
+    </div>
+    <div class="box" style="opacity: 0.6; top: -250px; user-select: none; z-index: 99999; position: relative; background-color: black; width: 1440px; height: 833px;left: -8px;">
+        lidshfbglha
+    </div>
+    <button class="button3" style="background: none; border: none; font-size: 150%;">
+        <<<
+    </button>
+    <section style="margin-top: 50px;">
+        <button class="show_all">
+            Показать все
+        </button>
+        <button class="sport_btn">
+            Спорт
+        </button>
+        <button class="dance_btn">
+            Танцы
+        </button>
+        <button class="art_btn">
+            Визуальное искусство
+        </button>
+        <button class="music_btn">
+            Музыка
+        </button>
+        <button class="difrnt_btn">
+            Другое
+        </button>
+        <div style="display: flex; justify-content: center; flex-direction: row; align-content: center; margin-top: 50px;">
+            <table>
+                <thead style="display: flex; justify-content: center;"> 
+                    <div>
+                        <tr style="display: flex; background-color: aqua;">
+                            <th style="display: flex; flex-direction: row; border: 1px black solid; padding-bottom: 20px; padding-top: 10px; padding-left: 10px; padding-right: 10px;; width: 100px; justify-content: center;">Вид</th>
+                            <th style="display: flex; flex-direction: row; border: 1px black solid; padding-bottom: 20px; padding-top: 10px; padding-left: 10px; padding-right: 10px; width: 150px; justify-content: center;">Название</th>
+                            <th style="display: flex; flex-direction: row; border: 1px black solid; padding-bottom: 20px; padding-top: 10px; padding-left: 10px; padding-right: 10px; width: 75px; justify-content: center;">Bозраст</th>
+                            <th style="display: flex; flex-direction: row; border: 1px black solid; padding-bottom: 20px; padding-top: 10px; padding-left: 10px; padding-right: 10px; width: 400px; justify-content: center;">Название места</th>
+                            <th style="display: flex; flex-direction: row; border: 1px black solid; padding-bottom: 20px; padding-top: 10px; padding-left: 10px; padding-right: 10px; width: 300px; justify-content: center;">Адрес</th>
+                            <th style="display: flex; flex-direction: row; border: 1px black solid; padding-bottom: 20px; padding-top: 10px; padding-left: 10px; padding-right: 10px; width: 150px; justify-content: center;">Телефон</th>
+                        </tr>
+                    </div>
+                </thead>
+                <tbody style="display: block; overflow-y:scroll; height: 480px;">
+                    <div>
+                        <tr class="dance" style="display: flex;">
+                            <td class="type">Танцы</td>
+                            <td class="name">Ритмопластика</td>
+                            <td class="age">2-6</td>
+                            <td class="location">Bērnu un jauniešu centrs „Rīgas Skolēnu pils"</td>
+                            <td class="adress">Krišjāņa Barona iela 99, Rīga, LV-1012</td>
+                            <td class="phone">+371 67279205</td>
+
+                        </tr>
+                    </div>
+                    <div>
+                        <tr class="music" style="display: flex;">
+                            <td class="type">Музыка</td>
+                            <td class="name">Хор „Accolada”</td>
+                            <td class="age">5 – 25</td>
+                            <td class="location">BJC „Rīgas Skolēnu pils”</td>
+                            <td class="adress">Krišjāņa Barona iela 99, Rīga, LV-1012</td>
+                            <td class="phone">+371 27006018, <br>+371 27006051 </td>
+
+                        </tr>
+                    </div>
+                    <div>
+                        <tr class="arts" style="display: flex;">
+                            <td class="type">Визуальное искусство</td>
+                            <td class="name">Визуальное искусство и дизайн</td>
+                            <td class="age">10 – 20</td>
+                            <td class="location">BJC „Rīgas Skolēnu pils”</td>
+                            <td class="adress">Krišjāņa Barona iela 99, Rīga, LV-1012</td>
+                            <td class="phone">+371 26323170</td>
+
+                        </tr>
+                    </div>
+                    <div>
+                        <tr class="different" style="display: flex;">
+                            <td class="type">Другое</td>
+                            <td class="name">Киноклуб „Горизонт”</td>
+                            <td class="age">9 – 19</td>
+                            <td class="location">BJC „Daugmale”</td>
+                            <td class="adress">Jēkabpils iela 19A, Rīga, LV-1003</td>
+                            <td class="phone">+371 29120094</td>
+                        </tr>
+                    </div>
+                    <div>
+                        <tr class="different" style="display: flex;">
+                            <td class="type">Другое</td>
+                            <td class="name">Студия "Мир цифровой графики"</td>
+                            <td class="age">10 – 25</td>
+                            <td class="location">PBJC „Altona”</td>
+                            <td class="adress">Altonavas iela 6, Rīga, LV-1004</td>
+                            <td class="phone">+371 67612354</td>
+                        </tr>
+                    </div>
+                    <div>
+                        <tr class="sports" style="display: flex;">
+                            <td class="type">Спорт</td>
+                            <td class="name">Флорбол</td>
+                            <td class="age">8 – 15</td>
+                            <td class="location">MJC „Praktiskās estētikas skola”</td>
+                            <td class="adress">Andreja Saharova iela 35, Rīga, LV-1082</td>
+                            <td class="phone">+371 67474145</td>
+                        </tr>
+                    </div>
+                    <div>
+                        <tr class="music" style="display: flex;">
+                            <td class="type">Музыка</td>
+                            <td class="name">Вокальный ансамбль „Rīga” (krievu val.)</td>
+                            <td class="age">4 – 7</td>
+                            <td class="location">BJC „Rīgas Skolēnu pils”</td>
+                            <td class="adress">Krišjāņa Barona iela 99, Rīga, LV-1012</td>
+                            <td class="phone">+371 28232782</td>
+                        </tr>
+                    </div>
+                    <div>
+                        <tr class="dance" style="display: flex;">
+                            <td class="type">Танцы</td>
+                            <td class="name">Группа „Karkadē”</td>
+                            <td class="age">9 – 18</td>
+                            <td class="location">Bērnu un jauniešu centrs „Rīgas Skolēnu pils”</td>
+                            <td class="adress">Krišjāņa Barona iela 99, Rīga, LV-1012</td>
+                            <td class="phone">+371 67279205</td>
+                        </tr>
+                    </div>
+                    <div>
+                        <tr class="different" style="display: flex;">
+                            <td class="type">Другое</td>
+                            <td class="name">Астрономия</td>
+                            <td class="age">15 – 25</td>
+                            <td class="location">TJN „Annas 2”</td>
+                            <td class="adress">Annas iela 2, Rīga, LV-1001</td>
+                            <td class="phone">+371 67374095</td>
+                        </tr>
+                    </div>
+                    <div>
+                        <tr class="arts" style="display: flex;">
+                            <td class="type">Визуальное искусство</td>
+                            <td class="name">Валяние из шерсти</td>
+                            <td class="age">6 – 15</td>
+                            <td class="location">MJC „Praktiskās estētikas skola”</td>
+                            <td class="adress">Andreja Saharova iela 35, Rīga, LV-1082</td>
+                            <td class="phone">+371 67474145</td>
+                        </tr>
+                    </div>
+                    <div>
+                        <tr class="arts" style="display: flex;">
+                            <td class="type">Визуальное искусство</td>
+                            <td class="name">Керамика</td>
+                            <td class="age">7 – 25</td>
+                            <td class="location">BJC „Rīgas Skolēnu pils”</td>
+                            <td class="adress">Krišjāņa Barona iela 99, Rīga, LV-1012</td>
+                            <td class="phone">+371 27026409</td>
+                        </tr>
+                    </div>
+                    <div>
+                        <tr class="different" style="display: flex;">
+                            <td class="type">Другое</td>
+                            <td class="name">Роботика</td>
+                            <td class="age">9 – 16</td>
+                            <td class="location">PBJC „Altona”</td>
+                            <td class="adress">Altonavas iela 6, Rīga, LV-1004</td>
+                            <td class="phone">+371 67612354</td>
+                        </tr>
+                    </div>
+                    <div>
+                        <tr class="music" style="display: flex;">
+                            <td class="type">Музыка</td>
+                            <td class="name">Игра на скрипке</td>
+                            <td class="age">5 – 18</td>
+                            <td class="location">BJC „Rīgas Skolēnu pils”</td>
+                            <td class="adress">Krišjāņa Barona iela 99, Rīga, LV-1012</td>
+                            <td class="phone">+371 25761840</td>
+                        </tr>
+                    </div>
+                    <div>
+                        <tr class="sports" style="display: flex;">
+                            <td class="type">Спорт</td>
+                            <td class="name">Легкая атлетика</td>
+                            <td class="age">7+ </td>
+                            <td class="location">Ziemeļvalstu ģimnāzija</td>
+                            <td class="adress">Paula Lejiņa iela 12, Rīga, LV-1029</td>
+                            <td class="phone">+371 67474153</td>
+                        </tr>
+                    </div>
+                    <div>
+                        <tr class="different" style="display: flex;">
+                            <td class="type">Другое</td>
+                            <td class="name">Кружок Лего</td>
+                            <td class="age">7 - 8</td>
+                            <td class="location">Pamatskolas „Rīdze” interešu izglītības centrs</td>
+                            <td class="adress">Krišjāņa Valdemāra iela 2, Rīga, LV-1010</td>
+                            <td class="phone">+371 67848045</td>
+                        </tr>
+                    </div>
+                    <div>
+                        <tr class="music" style="display: flex;">
+                            <td class="type">Музыка</td>
+                            <td class="name">Игра на гитаре</td>
+                            <td class="age">12 - 18</td>
+                            <td class="location">BJC „Rīgas Skolēnu pils”</td>
+                            <td class="adress">Krišjāņa Barona iela 99, Rīga, LV-1012</td>
+                            <td class="phone">+371 67279205</td>
+                        </tr>
+                    </div>
+                    <div>
+                        <tr class="arts" style="display: flex;">
+                            <td class="type">Визульное искусство</td>
+                            <td class="name">Обработка стекла</td>
+                            <td class="age">6 – 23</td>
+                            <td class="location">Rīgas Bolderājas Jaunā pamatskola</td>
+                            <td class="adress">Miglas iela 9, Rīga, LV-1016</td>
+                            <td class="phone">+371 67435096</td>
+                        </tr>
+                    </div>
+                    <div>
+                        <tr class="different" style="display: flex;">
+                            <td class="type">Другое</td>
+                            <td class="name">Юные исследователи</td>
+                            <td class="age">6 – 9</td>
+                            <td class="location">MJC „Praktiskās estētikas skola"</td>
+                            <td class="adress">Andreja Saharova iela 35, Rīga, LV-1082</td>
+                            <td class="phone">+371 67474145</td>
+                        </tr>
+                    </div>
+                    <div>
+                        <tr class="sports" style="display: flex;">
+                            <td class="type">Спорт</td>
+                            <td class="name">Баскетбол</td>
+                            <td class="age">7 - 14 </td>
+                            <td class="location">MJC „Praktiskās estētikas skola”</td>
+                            <td class="adress">Andreja Saharova iela 35, Rīga, LV-1082</td>
+                            <td class="phone">+371 67474145</td>
+                        </tr>
+                    </div>
+                    <div>
+                        <tr class="different" style="display: flex;">
+                            <td class="type">Другое</td>
+                            <td class="name">Программирование</td>
+                            <td class="age">9 – 25</td>
+                            <td class="location">TJN „Annas 2”</td>
+                            <td class="adress">Annas iela 2, Rīga, LV-1001</td>
+                            <td class="phone">+371 67374094</td>
+                        </tr>
+                    </div>
+                    <div>
+                        <tr class="arts" style="display: flex;">
+                            <td class="type">Визуальное искусство</td>
+                            <td class="name">Творческая композиция</td>
+                            <td class="age">7 – 25</td>
+                            <td class="location">MJC „Praktiskās estētikas skola”</td>
+                            <td class="adress">Andreja Saharova iela 35, Rīga, LV-1082</td>
+                            <td class="phone">+371 67474145</td>
+                        </tr>
+                    </div>
+                    <div>
+                        <tr class="sports" style="display: flex;">
+                            <td class="type">Спорт</td>
+                            <td class="name">Общая физическая подготовка</td>
+                            <td class="age">12 +</td>
+                            <td class="location">Rīgas 64. vidusskola</td>
+                            <td class="adress">Ūnijas iela 93, Rīga, LV-1039</td>
+                            <td class="phone">+371 67474292</td>
+                        </tr>
+                    </div>
+                    <div>
+                        <tr class="different" style="display: flex;">
+                            <td class="type">Другое</td>
+                            <td class="name">3D мир</td>
+                            <td class="age">10 – 18</td>
+                            <td class="location">MJC „Praktiskās estētikas skola”</td>
+                            <td class="adress">Andreja Saharova iela 35, Rīga, LV-1082</td>
+                            <td class="phone">+371 67474145</td>
+                        </tr>
+                    </div>
+                    <div>
+                        <tr class="arts" style="display: flex;">
+                            <td class="type">Визуальное искусство</td>
+                            <td class="name">Флористика</td>
+                            <td class="age">7 – 15</td>
+                            <td class="location">Rīgas Bolderājas Jaunā pamatskola</td>
+                            <td class="adress">Miglas iela 9, Rīga, LV-1016</td>
+                            <td class="phone">+371 67435096</td>
+                        </tr>
+                    </div>
+                    <div>
+                        <tr class="sports" style="display: flex;">
+                            <td class="type">Спорт</td>
+                            <td class="name">Общая физическая подготовка</td>
+                            <td class="age">12 + </td>
+                            <td class="location">Rīgas 80. vidusskola</td>
+                            <td class="adress">Andromedas gatve 11, Rīga, LV-1084</td>
+                            <td class="phone">+371 67474292</td>
+                        </tr>
+                    </div>
+                    <div>
+                        <tr class="different" style="display: flex;">
+                            <td class="type">Другое</td>
+                            <td class="name">Модели самолетов и дроны</td>
+                            <td class="age">10 – 25</td>
+                            <td class="location">TJN „Annas 2”</td>
+                            <td class="adress">Annas iela 2, Rīga, LV-1001</td>
+                            <td class="phone">+371 67374093</td>
+                        </tr>
+                    </div>
+                    <div>
+                        <tr class="arts" style="display: flex;">
+                            <td class="type">Визуальное искусство</td>
+                            <td class="name">Рисование</td>
+                            <td class="age">7 – 25</td>
+                            <td class="location">BJC „Rīgas Skolēnu pils”</td>
+                            <td class="adress">Krišjāņa Barona iela 99, Rīga, LV-1012</td>
+                            <td class="phone">+371 67279205</td>
+                        </tr>
+                    </div>
+                    <div>
+                        <tr class="different" style="display: flex;">
+                            <td class="type">Другое</td>
+                            <td class="name">Кружок радиоуправляемых машин</td>
+                            <td class="age">10 – 25</td>
+                            <td class="location">TJN „Annas 2”</td>
+                            <td class="adress">Annas iela 2, Rīga, LV-100</td>
+                            <td class="phone">+371  67374093</td>
+                        </tr>
+                    </div>
+                    <div>
+                        <tr class="sports" style="display: flex;">
+                            <td class="type">Спорт</td>
+                            <td class="name">Танцевальный фитнесс</td>
+                            <td class="age">12 – 25</td>
+                            <td class="location">TJN „Annas 2</td>
+                            <td class="adress">Annas iela 2, Rīga, LV-1001</td>
+                            <td class="phone">+371 67374093</td>
+                        </tr>
+                    </div>
+                    <div>
+                        <tr class="different" style="display: flex;">
+                            <td class="type">Другое</td>
+                            <td class="name">Обработка цифровых фотографий</td>
+                            <td class="age">11 – 25</td>
+                            <td class="location">MJC „Praktiskās estētikas skola”</td>
+                            <td class="adress">Andreja Saharova iela 35, Rīga, LV-1082</td>
+                            <td class="phone">+371 67474145</td>
+                        </tr>
+                    </div>
+                </tbody>
+            </table>
+        </div>
+    </section>
+<style>
+.button:hover,.button1:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+.button3:hover{
+    cursor: pointer;
+    color: red;
+    transition-duration: 0.2s;
+}
+.type{
+    display: flex; 
+    flex-direction: column; 
+    border: 1px aqua solid; 
+    padding-bottom: 30px; 
+    padding-top: 20px; 
+    padding-left: 10px; 
+    padding-right: 10px; 
+    width: 100px; 
+    justify-content: center;
+}
+.name{
+    display: flex; 
+    flex-direction: column; 
+    border: 1px aqua solid; 
+    padding-bottom: 30px; 
+    padding-top: 20px; 
+    padding-left: 10px; 
+    padding-right: 10px; 
+    width: 150px; 
+    justify-content: center;
+}
+.age{
+    display: flex; 
+    flex-direction: column; 
+    border: 1px aqua solid; 
+    padding-bottom: 30px; 
+    padding-top: 20px; 
+    padding-left: 10px; 
+    padding-right: 10px; 
+    width: 75px; 
+    justify-content: center;
+}
+.location{
+    display: flex; 
+    flex-direction: column; 
+    border: 1px aqua solid; 
+    padding-bottom: 30px; 
+    padding-top: 20px; 
+    padding-left: 10px; 
+    padding-right: 10px; 
+    width: 400px; 
+    justify-content: center;
+}
+.adress{
+    display: flex; 
+    flex-direction: column; 
+    border: 1px aqua solid; 
+    padding-bottom: 30px; 
+    padding-top: 20px; 
+    padding-left: 10px; 
+    padding-right: 10px; 
+    width: 300px; 
+    justify-content: center;
+}
+.phone{
+    display: flex; 
+    flex-direction: column; 
+    border: 1px aqua solid; 
+    padding-bottom: 30px; 
+    padding-top: 20px; 
+    padding-left: 10px; 
+    padding-right: 10px; 
+    width: 150px; 
+    justify-content: center;
+}
+</style>
+<script>
+    
+    const back_btn = document.querySelector('.button')
+    const frwd_btn = document.querySelector('.button1')
+    const back_btn_2 = document.querySelector('.button3')
+
+    const sports_btn = document.querySelector('.sport_btn')
+    const art_btn = document.querySelector('.art_btn')
+    const dance_btn = document.querySelector('.dance_btn')
+    const music_btn = document.querySelector('.music_btn')
+    const difrnt_btn = document.querySelector('.difrnt_btn')
+    const show_all = document.querySelector('.show_all')
+
+    const dance = document.querySelectorAll('.dance')
+    const sports = document.querySelectorAll('.sports')
+    const different = document.querySelectorAll('.different')
+    const arts = document.querySelectorAll('.arts')
+    const music = document.querySelectorAll('.music')
+
+    console.log(sports_btn, art_btn, dance_btn, music_btn, difrnt_btn, dance, sports, different, arts, music)
+
+    const box = document.querySelector('.box') 
+    const box1 = document.querySelector('.box1') 
+    const input = document.querySelector('.input2')
+    const input2 = document.querySelector('.input3')
+    const inputField = document.querySelector('.input2'); document.querySelector('.input3')
+    const value = inputField.value;
+
+    if (localStorage.getItem("Service") !== null) {
+        box.style.display = 'none'
+        box1.style.display = 'none'
+    }else{
+        box.style.display = 'flex'
+        box1.style.display = 'box'
+    }
+
+    back_btn.addEventListener('click', () => {
+        window.location = 'main.html'
+    })
+    back_btn_2.addEventListener('click', () => {
+        window.location = 'main.html'
+    })
+
+    if(localStorage.getItem('email') !== null){
+        console.log(`Email address exists`);
+        console.log(localStorage.getItem('email'))
+    }else {
+        console.log(`Email address not found`);
+    }
+
+    if(localStorage.getItem('pswrd') !== null){
+        console.log(`Password exists`);
+        console.log(localStorage.getItem('pswrd'))
+    }else {
+        console.log(`Password not found`);
+    } 
+    if(input.value = localStorage.getItem('email'), input2.value = localStorage.getItem('pswrd')){
+
+        frwd_btn.addEventListener('click', () => {
+            box.style.display = 'none'
+            box1.style.display = 'none'
+            console.log('Log in succesfull')
+            localStorage.setItem("Service", 'Log in succesfull')
+        })
+        
+    }
+    setInterval(
+        localStorage.removeItem("Service"),
+        1500000
+    )
+   
+    
+    sports_btn.addEventListener('click', () => {
+        for (let i = 0; i < dance.length; i++) {
+            dance[i].style.display = 'none'
+            
+        }
+        for (let i = 0; i < different.length; i++) {
+            different[i].style.display = 'none'
+            
+        }
+        for (let i = 0; i < arts.length; i++) {
+            arts[i].style.display = 'none'
+            
+        }
+        for (let i = 0; i < music.length; i++) {
+            music[i].style.display = 'none'
+            
+        }
+        for (let i = 0; i < sports.length; i++) {
+            sports[i].style.display = 'flex'
+            
+        }
+        console.log('Boom! Everything except sports is now gone!')
+    })
+    dance_btn.addEventListener('click', () => {
+        for (let i = 0; i < sports.length; i++) {
+            sports[i].style.display = 'none'
+            
+        }
+        for (let i = 0; i < different.length; i++) {
+            different[i].style.display = 'none'
+            
+        }
+        for (let i = 0; i < arts.length; i++) {
+            arts[i].style.display = 'none'
+            
+        }
+        for (let i = 0; i < music.length; i++) {
+            music[i].style.display = 'none'
+            
+        }
+        for (let i = 0; i < dance.length; i++) {
+            dance[i].style.display = 'flex'
+            
+        }
+        console.log('Boom! Everything except dances is now gone!')
+    })
+    difrnt_btn.addEventListener('click', () => {
+        for (let i = 0; i < sports.length; i++) {
+            sports[i].style.display = 'none'
+            
+        }
+        for (let i = 0; i < dance.length; i++) {
+            dance[i].style.display = 'none'
+            
+        }
+        for (let i = 0; i < arts.length; i++) {
+            arts[i].style.display = 'none'
+            
+        }
+        for (let i = 0; i < music.length; i++) {
+            music[i].style.display = 'none'
+            
+        }
+        for (let i = 0; i < different.length; i++) {
+            different[i].style.display = 'flex'
+            
+        }
+        console.log('Boom! Everything except different is now gone!')
+    })
+    art_btn.addEventListener('click', () => {
+        for (let i = 0; i < sports.length; i++) {
+            sports[i].style.display = 'none'
+            
+        }
+        for (let i = 0; i < different.length; i++) {
+            different[i].style.display = 'none'
+            
+        }
+        for (let i = 0; i < dance.length; i++) {
+            dance[i].style.display = 'none'
+            
+        }
+        for (let i = 0; i < music.length; i++) {
+            music[i].style.display = 'none'
+            
+        }
+        for (let i = 0; i < arts.length; i++) {
+            arts[i].style.display = 'flex'
+            
+        }
+        console.log('Boom! Everything except arts is now gone!')
+    })
+    music_btn.addEventListener('click', () => {
+        for (let i = 0; i < sports.length; i++) {
+            sports[i].style.display = 'none'
+            
+        }
+        for (let i = 0; i < different.length; i++) {
+            different[i].style.display = 'none'
+            
+        }
+        for (let i = 0; i < arts.length; i++) {
+            arts[i].style.display = 'none'
+            
+        }
+        for (let i = 0; i < dance.length; i++) {
+            dance[i].style.display = 'none'
+            
+        }
+        for (let i = 0; i < music.length; i++) {
+            music[i].style.display = 'flex'
+            
+        }
+        console.log('Boom! Everything except music is now gone!')
+    })
+    show_all.addEventListener('click', () => {
+        for (let i = 0; i < sports.length; i++) {
+            sports[i].style.display = 'flex'
+            
+        }
+        for (let i = 0; i < different.length; i++) {
+            different[i].style.display = 'flex'
+            
+        }
+        for (let i = 0; i < arts.length; i++) {
+            arts[i].style.display = 'flex'
+            
+        }
+        for (let i = 0; i < dance.length; i++) {
+            dance[i].style.display = 'flex'
+            
+        }
+        for (let i = 0; i < music.length; i++) {
+            music[i].style.display = 'flex'
+            
+        }
+        console.log('Boom! Now everything is visible!')
+    })
+</script>
+</body>
+</html>

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Зарегистрироваться</title>
+</head>
+<body style="max-height: 770px; max-width: 1440px;">
+    <section style="display: flex;">
+        <section style="display: inline-flex;">
+            <img src="ladybug.png" alt="Ladybug and Sunflower" style="user-select: none; height: 770px; width: auto;">
+        </section>
+
+        <section>
+            <p class="p" style="margin-left: 30px;">
+                << Назад
+            </p>
+            <section>
+                <p style="font-size: 30px; margin-left: 30px;">
+                    Заполните форму чтобы зарегистрироваться!
+                </p>
+                <div class="flex-text" style="margin-top: 25px;">
+                    <p style="display: inline; margin-left: 30px; ">
+                        В полях, которые отмечены <abbr title="required" style="color: red; display: inline;">*</abbr>, ответы обязательны!
+                    </p>
+                </div>
+                <form class="form" method="post" style=" margin-left: 25px; margin-top: 20px;">
+
+                        <table style="padding: 5px 10px 5px 10px;">
+                            <tbody >
+                                <tr>
+                                    <td>
+                                        <label for="name">Имя: </label>
+                                    </td>
+                                    <td>
+                                        <input class="input" required="true" style="border: 0.5px double black;  padding: 5px 7px 5px 7px;" type="text" placeholder="Ваше имя" style="display: inline;"  data-autosave-url="UserInfo" name="name" id="name"  >
+                                        <abbr title="required"  style="color: red; display: inline;">*</abbr>                                
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label for="surname">Фамилия: </label>                                
+                                    </td>
+                                    <td>
+                                        <input class="input1" required="true" style="border: 0.5px double black;  padding: 5px 7px 5px 7px;" type="name" placeholder="Ваша фамилия" style="display: inline;"  data-autosave-url="UserInfo" name="surname" id="surname"  >
+                                        <abbr title="required"  style="color: red; display: inline;">*</abbr>                                </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label for="name2">Отчество: </label>                                
+                                    </td>
+                                    <td>
+                                        <input class="input2" style="border: 0.5px double black;  padding: 5px 7px 5px 7px;" type="text" placeholder="Ваше отчество" style="display: inline;"  data-autosave-url="UserInfo" name="2nd_name" id="2nd_name"  >
+                                    </td>
+                                </tr>
+                                <tr >
+                                    <td style="padding-top: 20px;">
+                                        <label for="email">E-mail: </label>                                
+                                    </td>
+                                    <td style="padding-top: 20px;">
+                                        <input  class="input3" required="true" style="border: 0.5px double black;  padding: 5px 7px 5px 7px;" type="email" placeholder="Ваш e-mail" style="display: inline;"  data-autosave-url="UserInfo" name="email" id="email"  >
+                                        <abbr title="" title="required" style="color: red; display: inline;">*</abbr>                                </td>
+                                </tr>
+                                <tr >
+                                    <td style="padding-top: 20px;">
+                                        <label for="pswrd"> Пароль: </label>                     
+                                    </td>
+                                    <td style="padding-top: 20px;">
+                                        <input class="input5" required="true" type="password" style="border: 0.5px double black;  padding: 5px 7px 5px 7px;" type="password" placeholder="Пароль от аккаунта" style="display: inline;" maxlength="20" name="pswrd" id="pswrd" data-autosave-url="UserInfo"  >
+                                        <abbr title="" title="required" style="color: red; display: inline;">*</abbr>
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <button class="button" type="button" style="background: none; padding: 5px 10px 5px 10px; margin-top: 30px;">
+                                            Зарегистрироваться
+                                        </button>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <p style="user-select: none;">______________________________________________________________________________________________________________________________________</p>
+                        
+
+                </form>
+            </section>
+            <div class="flex-branch_error" style="display: flex; flex-direction: column; align-items: flex-end; margin-top: 180px;">
+                <button class="btn_err" style="display: flex; user-select: none; border: 2px solid rgb(247, 46, 46); background: none; width: 200px; height: 30px;padding: 5px 5px 5px 5px; flex-direction: column; align-items: center; left: 200px;bottom: 50px;">
+                    Сообщить об ошибке
+                </button>
+            </div>
+        </section>
+    </section>
+    <div  class="bcg_box" style="display: none;  background-color: black; opacity: 0.7; width: 1449px; height: 797px; top: -1000px; position: relative; top: -770px; margin: -16px -16px -16px -16px;">a;ldkfg;adfjng;adfn</div>
+    <div class="popup_div" style="display: none; justify-content: center; position: relative; bottom: 1300px;">
+        <div class="popup" style="display: none; height: 300px; width: 450px; background-color: rgb(4, 206, 206); flex-direction: column; justify-content: center; box-shadow: 0 40px 100px 0px var(--hover); --hover: rgb(53, 117, 255);">
+            <H2 style="display: flex; justify-content: center;">Вы успешно зарегестрировались!</H2>
+            <div style="margin-top: 50px;display: flex; justify-content: center;">
+                <button class="next_btn">
+                    Перейти на главную станицу
+                </button>
+            </div>
+        </div>
+    </div>
+    
+<style>
+.p:hover{
+    transition-duration: 0.2s;
+    cursor: pointer;
+    color: royalblue;
+}
+button:hover{
+    cursor: pointer;        
+    transition-duration: 0.3s;
+}
+.btn_err:hover,
+.btn_err:focus{
+    cursor: pointer;
+    box-shadow: 0 20px 20px -5px var(--hover);
+    --hover: rgb(247, 46, 46);
+    transform: translateY(-10px);
+    transition-duration: 0.3s;
+}
+</style>
+<script>
+    const btn = document.querySelector('.p')
+    const button = document.querySelector('.button')
+    const err_btn = document.querySelector('.flex-branch_error')
+    const bcg_box = document.querySelector('.bcg_box')
+    const n_btn = document.querySelector('.next_btn')
+    const popup_div = document.querySelector('.popup_div')
+    const popup = document.querySelector('.popup')
+    const stay_btn = document.querySelector('.stay_btn')
+
+    
+    
+    err_btn.addEventListener('click', () => {
+        window.location = 'main.html'
+    })
+    btn.addEventListener('click', () => {
+        window.location = 'main.html'
+    })
+    button.addEventListener('click', () =>{
+        bcg_box.style.display = 'flex'
+        popup_div.style.display = 'flex'
+        popup.style.display = 'flex'
+    })
+    n_btn.addEventListener('click', () => {
+        window.location = 'main.html'
+    })
+
+    document.addEventListener('DOMContentLoaded', () =>{
+        
+
+        
+        document.querySelectorAll('[data-autosave-url]').forEach(inputField => {
+            inputField.addEventListener('change', async ()=> {
+
+                const name = inputField.getAttribute("name");
+                const value = inputField.value;
+                const url = inputField.dataset.autosaveUrl;
+                const formData = new FormData();
+
+                formData.append(name, value);
+                    
+                window.localStorage.setItem(name, value);
+                   
+                console.log(name, value)
+            })
+        })
+    })
+
+    
+    
+</script>
+</body>
+</html>

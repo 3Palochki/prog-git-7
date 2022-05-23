@@ -1,0 +1,105 @@
+<html lang="en" style="max-width: 1440px; max-height: 760px;">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная страница</title>
+</head>
+<body>
+
+
+    <section style="display: flex;">
+
+
+        <section style="display: inline-flex;">
+            <img src="ladybug.png" alt="Ladybug and Sunflower" style="user-select: none; height: 770; width: auto;">
+        </section>
+
+
+        <section style="display: flex; width: 1110px; flex-direction: column; flex-wrap: nowrap; align-items: center;">
+
+
+            <div class="flex-main" style="display: flex; width: 1110px; flex-direction: column; flex-wrap: nowrap; align-items: center;">
+
+
+                <div class="flex-branch_title" style="display: flex;">
+
+                    <H1 style="font-size: 50px; user-select: none; margin-top: 200px;">Добро пожаловать!</H1>
+
+                </div>
+
+                <div class="flex-branch_subtitle" style="user-select: none; display: flex; flex-direction: column; align-items: center;">
+
+                    <p>Выберите, пожалуйста, что вы хотите сделать.</p>
+
+                </div>
+
+                <div class="flex-branch_btns" style="margin: 100px 0 50px 0; display: flex; flex-direction: row; justify-content: space-between;">
+                    <button class="btn_a" style="user-select: none; border: 2px solid rgb(53, 117, 255); background: none; margin-right: 75px; width: 200px; height: 50px; padding: 10px 5px 10px 5px;  ">
+                        Войти в систему
+                    </button>
+                    <button class="btn_reg" style="user-select: none; border: 2px solid rgb(53, 117, 255); background: none; margin-left: 75px; width: 200px; height: 50px; padding: 10px 5px 10px 5px;  ">
+                        Зарегистрироваться
+                    </button>
+                </div>
+
+                <div class="flex-branch_error" style="display: flex;">
+                    <button class="btn_err" style="display: flex; user-select: none; border: 2px solid rgb(247, 46, 46); background: none; width: 200px; height: 30px; padding: 5px 5px 5px 5px; flex-direction: column; align-items: center;">
+                        Сообщить об ошибке
+                    </button>
+                </div>
+
+
+            </div>
+
+
+        </section>
+
+
+    </section>
+
+<script>
+    const btn = document.querySelector('.btn_a')
+    const btn_reg = document.querySelector('.btn_reg')
+    const btn_err = document.querySelector('.btn_err')
+    
+    btn.addEventListener('click', () =>{
+        window.location = 'log.html'
+    })
+    btn_reg.addEventListener('click', () =>{
+        window.location = 'reg.html'
+    })
+    btn_err.addEventListener('click', () =>{
+        window.location = 'main.html'
+    })
+
+</script>
+</body>
+<style>
+.btn_a:hover,
+.btn_a:focus {
+    cursor: pointer;
+    box-shadow: 0 20px 20px -5px var(--hover);
+    --hover: rgb(53, 117, 255);
+    transform: translateY(-10px);
+    transition-duration: 0.3s;
+}
+.btn_err:hover,
+.btn_err:focus{
+    cursor: pointer;
+    box-shadow: 0 20px 20px -5px var(--hover);
+    --hover: rgb(247, 46, 46);
+    transform: translateY(-10px);
+    transition-duration: 0.3s;
+}
+.btn_reg:hover,
+.btn_reg:focus {
+    cursor: pointer;
+    box-shadow: 0 20px 20px -5px var(--hover);
+    --hover: rgb(53, 117, 255);
+    transform: translateY(-10px);
+    transition-duration: 0.3s;
+}
+
+</style>
+</html>
